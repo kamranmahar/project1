@@ -38,4 +38,4 @@ jobs:
       run: npm install --global surge
     
     - name: Deploye the surge 
-      run: surge ./build kamran-project1.surge.sh --token{{secrets:react_tokenb682135a08e669a17a5214ea7d8fa81b}}
+      run: surge ./build kamran-project1.surge.sh --token{{secrets:REACT_TOKEN}}
